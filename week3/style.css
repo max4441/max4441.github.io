@@ -29,12 +29,18 @@ span {
   color: darkgreen;
 }
 
+#name {
+  color: darkred;
+  font-size: 1.5rem;
+}
+
 #venue {
   color: darkviolet;
 }
 
 [data-email="email"] {
-  color: lightgreen;
+  color: rgb(0, 0, 0);
+  font-size: 1rem;
 }
 
 ul > li {
@@ -54,10 +60,23 @@ p {
   line-height: 1.5;
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   font-style: italic;
+  padding: 10;
 }
 
 .poiret-one-regular {
   font-family: "Poiret One", sans-serif;
   font-weight: 400;
   font-style: normal;
+}
+
+.ojuju {
+  font-family: "Ojuju", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
 }

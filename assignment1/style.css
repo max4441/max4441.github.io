@@ -1,0 +1,561 @@
+.desktop {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.desktop .whitebg {
+  background-color: #ffffff;
+  width: 1440px;
+  height: 8879px;
+  position: relative;
+}
+
+.desktop .overlap-group {
+  height: 1906px;
+  top: 0;
+  position: absolute;
+  width: 1440px;
+  left: 0;
+}
+
+.desktop .blackbg {
+  position: absolute;
+  width: 1440px;
+  height: 1080px;
+  top: 0;
+  left: 0;
+  background-color: #2f2f2f;
+  background-position: center;
+}
+
+.desktop .title {
+  position: absolute;
+  width: 1000px;
+  top: 332px;
+  left: 220px;
+  font-family: "Helvetica Neue-Bold", Helvetica;
+  font-weight: 700;
+  color: #e37220;
+  font-size: 128px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.desktop .nameandnumber {
+  position: absolute;
+  top: 494px;
+  left: 937px;
+  font-family: "Helvetica Neue-Light", Helvetica;
+  font-weight: 300;
+  color: #e37220;
+  font-size: 32px;
+  text-align: right;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.desktop .module {
+  position: absolute;
+
+  top: 494px;
+  left: 220px;
+  font-family: "Helvetica Neue-Light", Helvetica;
+  font-weight: 300;
+  color: #e37220;
+  font-size: 32px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.desktop .websitereferenced {
+  position: absolute;
+  width: 312px;
+  top: 971px;
+  left: 569px;
+  font-family: "Helvetica Neue-Regular", Helvetica;
+  font-weight: 400;
+  color: #e37220;
+  font-size: 32px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.desktop .week2qnatitle {
+  position: absolute;
+  width: 312px;
+  top: 653px;
+  left: 314px;
+  font-family: "Helvetica Neue-Bold", Helvetica;
+  font-weight: 700;
+  color: #e37220;
+  font-size: 32px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.desktop .week3qnatitle {
+  position: absolute;
+  width: 312px;
+  top: 653px;
+  left: 814px;
+  font-family: "Helvetica Neue-Bold", Helvetica;
+  font-weight: 700;
+  color: #e37220;
+  font-size: 32px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.desktop .brooomstick-webpage {
+  position: absolute;
+  width: 1440px;
+  height: 683px;
+  top: 1029px;
+  left: 0;
+  object-fit: cover;
+}
+
+.desktop .star {
+  position: absolute;
+  width: 194px;
+  height: 388px;
+  top: 1518px;
+  left: 1246px;
+}
+
+.desktop .img {
+  position: absolute;
+  width: 194px;
+  height: 388px;
+  top: 835px;
+  left: 0;
+}
+
+.desktop .websitelink {
+  position: absolute;
+  width: 283px;
+  top: 1726px;
+  left: 578px;
+  font-family: "Helvetica Neue-Light", Helvetica;
+  font-weight: 300;
+  color: #000000;
+  font-size: 32px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.desktop .week2qna {
+  position: absolute;
+  width: 312px;
+  top: 1860px;
+  left: 95px;
+  font-family: "Helvetica Neue-Regular", Helvetica;
+  font-weight: 400;
+  color: #e37220;
+  font-size: 32px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.desktop .w2q1 {
+  position: absolute;
+  width: 1006px;
+  top: 1939px;
+  left: 95px;
+  font-family: "Helvetica Neue-Bold", Helvetica;
+  font-weight: 700;
+  color: #e37220;
+  font-size: 64px;
+  letter-spacing: 0;
+  line-height: 78.1px;
+}
+
+.desktop .w2q1a {
+  position: absolute;
+  width: 886px;
+  top: 2245px;
+  left: 459px;
+  font-family: "Helvetica Neue-Regular", Helvetica;
+  font-weight: 400;
+  color: #e37220;
+  font-size: 36px;
+  text-align: right;
+  letter-spacing: 0;
+  line-height: 42.9px;
+}
+
+.desktop .w2q2 {
+  position: absolute;
+  width: 1006px;
+  top: 2352px;
+  left: 95px;
+  font-family: "Helvetica Neue-Bold", Helvetica;
+  font-weight: 700;
+  font-style: italic;
+  color: #e37220;
+  font-size: 64px;
+  letter-spacing: 0;
+  line-height: 78.1px;
+}
+
+.desktop .w2q2a {
+  position: absolute;
+  width: 962px;
+  top: 2627px;
+  left: 383px;
+  font-family: "Helvetica Neue-Regular", Helvetica;
+  font-weight: 400;
+  color: #e37220;
+  font-size: 36px;
+  text-align: right;
+  letter-spacing: 0;
+  line-height: 42.9px;
+}
+
+.desktop .w2q3 {
+  position: absolute;
+  width: 1006px;
+  top: 2850px;
+  left: 95px;
+  font-family: "Helvetica Neue-BoldItalic", Helvetica;
+  font-weight: 700;
+  font-style: italic;
+  color: #e37220;
+  font-size: 64px;
+  letter-spacing: 0;
+  line-height: 78.1px;
+}
+
+.desktop .w2q3a {
+  position: absolute;
+  width: 734px;
+  top: 3155px;
+  left: 611px;
+  font-family: "Helvetica Neue-Regular", Helvetica;
+  font-weight: 400;
+  color: #e37220;
+  font-size: 36px;
+  text-align: right;
+  letter-spacing: 0;
+  line-height: 42.9px;
+  white-space: nowrap;
+}
+
+.desktop .w2q4 {
+  position: absolute;
+  width: 1006px;
+  top: 3262px;
+  left: 95px;
+  font-family: "Helvetica Neue-BoldItalic", Helvetica;
+  font-weight: 700;
+  font-style: italic;
+  color: #e37220;
+  font-size: 64px;
+  letter-spacing: 0;
+  line-height: 78.1px;
+}
+
+.desktop .w2q4a {
+  position: absolute;
+  width: 244px;
+  top: 3572px;
+  left: 1101px;
+  font-family: "Helvetica Neue-Regular", Helvetica;
+  font-weight: 400;
+  color: #e37220;
+  font-size: 36px;
+  text-align: right;
+  letter-spacing: 0;
+  line-height: 42.9px;
+  white-space: nowrap;
+}
+
+.desktop .w2q5 {
+  position: absolute;
+  width: 1006px;
+  top: 3674px;
+  left: 95px;
+  font-family: "Helvetica Neue-BoldItalic", Helvetica;
+  font-weight: 700;
+  font-style: italic;
+  color: #e37220;
+  font-size: 64px;
+  letter-spacing: 0;
+  line-height: 78.1px;
+}
+
+.desktop .w2q5a {
+  position: absolute;
+  width: 682px;
+  top: 3973px;
+  left: 663px;
+  font-family: "Helvetica Neue-Regular", Helvetica;
+  font-weight: 400;
+  color: #e37220;
+  font-size: 36px;
+  text-align: right;
+  letter-spacing: 0;
+  line-height: 42.9px;
+}
+
+.desktop .w2q6 {
+  position: absolute;
+  width: 1006px;
+  top: 4172px;
+  left: 95px;
+  font-family: "Helvetica Neue-BoldItalic", Helvetica;
+  font-weight: 700;
+  font-style: italic;
+  color: #e37220;
+  font-size: 64px;
+  letter-spacing: 0;
+  line-height: 78.1px;
+}
+
+.desktop .w2q6a {
+  position: absolute;
+  width: 734px;
+  top: 4516px;
+  left: 611px;
+  font-family: "Helvetica Neue-Regular", Helvetica;
+  font-weight: 400;
+  color: #e37220;
+  font-size: 36px;
+  text-align: right;
+  letter-spacing: 0;
+  line-height: 42.9px;
+}
+
+.desktop .w2q7 {
+  position: absolute;
+  width: 1144px;
+  top: 4705px;
+  left: 95px;
+  font-family: "Helvetica Neue-BoldItalic", Helvetica;
+  font-weight: 700;
+  font-style: italic;
+  color: #e37220;
+  font-size: 64px;
+  letter-spacing: 0;
+  line-height: 78.1px;
+}
+
+.desktop .w2q7a {
+  position: absolute;
+  width: 704px;
+  top: 5117px;
+  left: 641px;
+  font-family: "Helvetica Neue-Regular", Helvetica;
+  font-weight: 400;
+  color: #e37220;
+  font-size: 36px;
+  text-align: right;
+  letter-spacing: 0;
+  line-height: 42.9px;
+}
+
+.desktop .w2q8 {
+  position: absolute;
+  width: 1150px;
+  top: 5297px;
+  left: 95px;
+  font-family: "Helvetica Neue-BoldItalic", Helvetica;
+  font-weight: 700;
+  font-style: italic;
+  color: #e37220;
+  font-size: 64px;
+  letter-spacing: 0;
+  line-height: 78.1px;
+}
+
+.desktop .w2q8a {
+  position: absolute;
+  width: 962px;
+  top: 5596px;
+  left: 383px;
+  font-family: "Helvetica Neue-Regular", Helvetica;
+  font-weight: 400;
+  color: #e37220;
+  font-size: 36px;
+  text-align: right;
+  letter-spacing: 0;
+  line-height: 42.9px;
+}
+
+.desktop .mainstar {
+  position: fixed;
+  width: 125px;
+  height: 125px;
+  top: 29px;
+  left: 27px;
+}
+
+.desktop .blackbg2 {
+  height: 3107px;
+  top: 5772px;
+  background-color: #2f2f2f;
+  position: absolute;
+  width: 1440px;
+  left: 0;
+}
+
+.desktop .week3qna {
+  position: absolute;
+  width: 312px;
+  top: 79px;
+  left: 101px;
+  font-family: "Helvetica Neue-Regular", Helvetica;
+  font-weight: 400;
+  color: #e37220;
+  font-size: 32px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.desktop .w3q1 {
+  position: absolute;
+  width: 1006px;
+  top: 156px;
+  left: 101px;
+  font-family: "Helvetica Neue-BoldItalic", Helvetica;
+  font-weight: 700;
+  font-style: italic;
+  color: #e37220;
+  font-size: 64px;
+  letter-spacing: 0;
+  line-height: 78.1px;
+}
+
+.desktop .w3q1a {
+  position: absolute;
+  width: 1105px;
+  top: 431px;
+  left: 246px;
+  font-family: "Helvetica Neue-Regular", Helvetica;
+  font-weight: 400;
+  color: #e37220;
+  font-size: 36px;
+  text-align: right;
+  letter-spacing: 0;
+  line-height: 42.9px;
+}
+
+.desktop .w3q2 {
+  position: absolute;
+  width: 1006px;
+  top: 715px;
+  left: 101px;
+  font-family: "Helvetica Neue-BoldItalic", Helvetica;
+  font-weight: 700;
+  font-style: italic;
+  color: #e37220;
+  font-size: 64px;
+  letter-spacing: 0;
+  line-height: 78.1px;
+}
+
+.desktop .w3q2a {
+  position: absolute;
+  width: 962px;
+  top: 1076px;
+  left: 389px;
+  font-family: "Helvetica Neue-Regular", Helvetica;
+  font-weight: 400;
+  color: #e37220;
+  font-size: 36px;
+  text-align: right;
+  letter-spacing: 0;
+  line-height: 42.9px;
+}
+
+.desktop .w3q3 {
+  position: absolute;
+  width: 1006px;
+  top: 1307px;
+  left: 101px;
+  font-family: "Helvetica Neue-BoldItalic", Helvetica;
+  font-weight: 700;
+  font-style: italic;
+  color: #e37220;
+  font-size: 64px;
+  letter-spacing: 0;
+  line-height: 78.1px;
+}
+
+.desktop .w3q3a {
+  position: absolute;
+  width: 877px;
+  top: 1666px;
+  left: 474px;
+  font-family: "Helvetica Neue-Regular", Helvetica;
+  font-weight: 400;
+  color: #e37220;
+  font-size: 36px;
+  text-align: right;
+  letter-spacing: 0;
+  line-height: 42.9px;
+}
+
+.desktop .w3q4 {
+  position: absolute;
+  width: 1071px;
+  top: 1842px;
+  left: 101px;
+  font-family: "Helvetica Neue-BoldItalic", Helvetica;
+  font-weight: 700;
+  font-style: italic;
+  color: #e37220;
+  font-size: 64px;
+  letter-spacing: 0;
+  line-height: 78.1px;
+}
+
+.desktop .w3q4a {
+  position: absolute;
+  width: 1017px;
+  top: 2152px;
+  left: 334px;
+  font-family: "Helvetica Neue-Regular", Helvetica;
+  font-weight: 400;
+  color: #e37220;
+  font-size: 36px;
+  text-align: right;
+  letter-spacing: 0;
+  line-height: 42.9px;
+}
+
+.desktop .w3q5 {
+  position: absolute;
+  width: 1006px;
+  top: 2386px;
+  left: 101px;
+  font-family: "Helvetica Neue-BoldItalic", Helvetica;
+  font-weight: 700;
+  font-style: italic;
+  color: #e37220;
+  font-size: 64px;
+  letter-spacing: 0;
+  line-height: 78.1px;
+}
+
+.desktop .w3q5a {
+  position: absolute;
+  width: 1057px;
+  top: 2685px;
+  left: 294px;
+  font-family: "Helvetica Neue-Regular", Helvetica;
+  font-weight: 400;
+  color: #e37220;
+  font-size: 36px;
+  text-align: right;
+  letter-spacing: 0;
+  line-height: 42.9px;
+}
