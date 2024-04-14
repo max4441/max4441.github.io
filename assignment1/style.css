@@ -8,22 +8,24 @@
 
 .desktop .whitebg {
   background-color: #ffffff;
-  width: 1440px;
+  width: 100%;
   height: 8879px;
-  position: relative;
+  position: absolute;
+  display: flex;
+  justify-content: center;
 }
 
 .desktop .overlap-group {
   height: 1906px;
   top: 0;
   position: absolute;
-  width: 1440px;
+  width: 100%;
   left: 0;
 }
 
 .desktop .blackbg {
   position: absolute;
-  width: 1440px;
+  width: 100%;
   height: 1080px;
   top: 0;
   left: 0;
@@ -43,6 +45,7 @@
   letter-spacing: 0;
   line-height: normal;
   white-space: nowrap;
+  margin-left: 50px;
 }
 
 .desktop .nameandnumber {
@@ -56,6 +59,7 @@
   text-align: right;
   letter-spacing: 0;
   line-height: normal;
+  margin-left: 50px;
 }
 
 .desktop .module {
@@ -69,6 +73,7 @@
   font-size: 32px;
   letter-spacing: 0;
   line-height: normal;
+  margin-left: 50px;
 }
 
 .desktop .websitereferenced {
@@ -83,6 +88,7 @@
   text-align: center;
   letter-spacing: 0;
   line-height: normal;
+  margin-left: 50px;
 }
 
 .desktop .week2qnatitle {
@@ -97,6 +103,7 @@
   text-align: center;
   letter-spacing: 0;
   line-height: normal;
+  margin-left: 50px;
 }
 
 .desktop .week3qnatitle {
@@ -111,11 +118,12 @@
   text-align: center;
   letter-spacing: 0;
   line-height: normal;
+  margin-left: 50px;
 }
 
 .desktop .brooomstick-webpage {
   position: absolute;
-  width: 1440px;
+  width: 100%;
   height: 683px;
   top: 1029px;
   left: 0;
@@ -128,6 +136,7 @@
   height: 388px;
   top: 1518px;
   left: 1246px;
+  margin-left: 60px;
 }
 
 .desktop .img {
@@ -136,6 +145,8 @@
   height: 388px;
   top: 835px;
   left: 0;
+  display: flex;
+  justify-content: end;
 }
 
 .desktop .websitelink {
@@ -403,7 +414,7 @@
   top: 5772px;
   background-color: #2f2f2f;
   position: absolute;
-  width: 1440px;
+  width: 100%;
   left: 0;
 }
 
