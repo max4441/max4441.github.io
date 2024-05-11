@@ -75,10 +75,16 @@ a {
   background-color: coral;
 }
 
-.h1 {
-  font-size: 4rem;
+.lime-box {
+  background-color: limegreen;
 }
 
-.p {
+h1 {
+  font-size: 4rem;
+  padding-bottom: 20px;
+}
+
+p {
   font-size: 2rem;
+  color: #1a120b;
 }

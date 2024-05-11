@@ -22,11 +22,11 @@ console.log(myButton);
 myButton.addEventListener("click", chooseTopic);
 
 function toggleMe() {
-  //   const myImage = document.querySelector("#my-image");
-  // //   console.log(myImage);
-  // console.log(myImage.dataset.catname);
-  //   myImage.classList.toggle("round");
-  //   myButton.textContent = myImage.dataset.catname;
+  const myImage = document.querySelector("#my-image");
+  console.log(myImage);
+  console.log(myImage.dataset.catname);
+  myImage.classList.toggle("round");
+  myButton.textContent = myImage.dataset.catname;
 }
 
 function chooseTopic() {
@@ -35,10 +35,26 @@ function chooseTopic() {
   function displayTopic(item) {
     if (item.dataset.topic === "sound") {
       item.classList.add("purple-box");
+    } else if (item.dataset.topic === "web") {
+      item.classList.add("coral-box");
+    } else if (item.dataset.topic === "music") {
+      item.classList.add("lime-box");
     }
-    else if (item.dataset.topic === "web") {
-        item.classList.add("coral-box");
-      }
-      else if (item.dataset.topic === "music") {
-        item.classList.add("lime-box");
+  }
+}
+
+const myTitle = document.querySelector("h1");
+myTitle.textContent = "i am a heading";
+let course = "OART0313";
+myTitle.innerHTML = 'I am a <span class="coral-box"> new ${course} </span';
+
+myImage.addEventListener("mouseover", makeItRound);
+myImage.addEventListener("mouseout", makeItSquare);
+
+function makeItRound() {
+  myImage.classList.add("round");
+}
+
+function makeItSquare() {
+  myImage.classList.add("square");
 }
