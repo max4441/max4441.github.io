@@ -1,3 +1,6 @@
+// This is my database of storing multiple music into a single string function.
+// This gives the user the name and artist of each song.
+
 let songs = [
   {
     name: "I feel lost",
@@ -45,6 +48,11 @@ const playBtn = document.querySelector(".play-btn");
 const forwardBtn = document.querySelector(".forward-btn");
 const backwardBtn = document.querySelector(".backward-btn");
 
+// this is the function that helps to sync the pause and play button with the audio itself.
+// This is determined by looking at the class name of the play button because of the naming of the
+// play button. The const playBtn is based on the class name play-btn, eventhough the actual name is
+// play-button pause. This enables javascript to see if the class name has the word pause (by default),
+// it will play the music.
 playBtn.addEventListener("click", () => {
   if (playBtn.className.includes("pause")) {
     music.play();
@@ -55,7 +63,8 @@ playBtn.addEventListener("click", () => {
   disk.classList.toggle("play");
 });
 
-// setup music
+// This is the setup of the music library from the data i added earlier.
+// This allows javascript to get the information for each song and the album art as well.
 
 const setMusic = (i) => {
   seekBar.value = 0;
@@ -76,7 +85,8 @@ const setMusic = (i) => {
 
 setMusic(0);
 
-// formatting time in min and secs
+// // formatting time into min and secs. Originally, the given format was in just seconds, however with
+// this function, it can help to make it into a minutes and seconds format by dividing the time into 60
 
 const formatTime = (time) => {
   let min = Math.floor(time / 60);

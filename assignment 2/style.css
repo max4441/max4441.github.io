@@ -3,13 +3,14 @@
   padding: 0;
   box-sizing: border-box;
 }
-
+/* i chose to align most of the elements in the center so that it will give a clean design. */
 .bebas-neue-regular {
   font-family: "Bebas Neue", sans-serif;
   font-weight: 400;
   font-style: normal;
 }
-
+/* For the background, i went with a blackhole gif that repeats itself. I feel this suits the 
+genre of music that Aaron Hibell produces, which gives a spacey and dreamy vibe. */
 body {
   width: 100%;
   height: 100vh;
@@ -24,7 +25,7 @@ body {
 
 .music-player {
   width: 800px;
-  height: 550px;
+  height: 600px;
   border-radius: 20px;
   background-color: rgb(232, 232, 232);
   padding: 30px;
@@ -50,7 +51,8 @@ body {
 .artist-name {
   font-size: 20px;
 }
-
+/* this is the styling for the disk in the middle of the website. This allows me to show the album art 
+as well as give a music record spinning animation to it. */
 .disk {
   position: relative;
   display: block;
@@ -83,7 +85,9 @@ body {
   width: 100%;
   position: relative;
 }
-
+/* this styling is showing the seekbar as the song is continously playing. 
+the seekbar slider thumb enables the user to see how far the song has traveled in its duration.
+It also allows the user to jump at any point of the song by clicking on the seekbar. */
 .seek-bar {
   -webkit-appearance: none;
   width: 100%;
@@ -131,7 +135,9 @@ body {
   cursor: pointer;
   border: none;
 }
-
+/* The play button is made out of manual styling rather than an icon.
+It makes the play and pause button animate into each other. 
+The usage of clip path also helps in making the play button triangle shape. */
 .play-btn span {
   position: absolute;
   top: 50%;
@@ -165,7 +171,7 @@ body {
 .play-btn.pause {
   animation: pulse 2s linear infinite;
 }
-
+/* this gives the pause/play btn a pulsing aimation effect. */
 @keyframes pulse {
   0% {
     box-shadow: 0;
@@ -210,4 +216,16 @@ h1 {
   color: #ffffff;
   font-size: 100px;
   text-align: center;
+}
+
+.spotify {
+  color: #000;
+  display: flex;
+  justify-content: right;
+}
+
+.instagram {
+  color: #000;
+  display: flex;
+  justify-content: left;
 }
