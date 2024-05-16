@@ -22,7 +22,7 @@ let songs = [
   },
   {
     name: "Weekend",
-    path: "songs/weekend.mp3",
+    path: "songs/Weekend.mp3",
     artist: "YASAI",
     cover: "art/weekendart.png",
   },
