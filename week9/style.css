@@ -1,0 +1,188 @@
+body {
+  background-color: #1a120b;
+  display: flex;
+  text-align: center;
+  margin: auto;
+  max-width: 1000px;
+  justify-content: center;
+  align-items: center;
+  font-family: "Space Grotesk", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  color: #e5e5cb;
+  /* color: #3c2a21; */
+  font-size: 1.1rem;
+  gap: 1.5rem;
+}
+
+.outer {
+  border: 2px dashed #e5e5cb7a;
+  width: 400px;
+  min-height: 200px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  opacity: 1;
+  /* background-color: cornsilk; */
+}
+
+button {
+  padding: 20px;
+  font-size: 2rem;
+  background-color: aqua;
+  border: none;
+  transition: background-color 0.5s ease scale 0.5s ease;
+}
+
+button:hover {
+  background-color: chartreuse;
+  /* scale: 1.1; */
+}
+
+input {
+  padding: 10px;
+  border: 4px solid lime;
+  transition: border-color 0.3s linear;
+}
+
+input:hover {
+  border-color: aqua;
+}
+
+.fill-icon {
+  transition: fill 0.2s ease;
+}
+
+.fill-icon:hover {
+  fill: aqua;
+}
+
+.duck-icon :hover {
+  /* scale: 1.4; */
+  translate: 10px 30px;
+}
+
+#box {
+  background-color: purple;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  animation-name: border-switch;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes color-switch {
+  0% {
+    background-color: purple;
+  }
+  20% {
+    background-color: chartreuse;
+  }
+  40% {
+    background-color: orange;
+  }
+  60% {
+    background-color: blue;
+  }
+  80% {
+    background-color: red;
+  }
+  100% {
+    background-color: yellow;
+  }
+}
+
+@keyframes border-switch {
+  0% {
+    border-color: purple;
+  }
+  20% {
+    border-color: chartreuse;
+  }
+  40% {
+    border-color: orange;
+  }
+  60% {
+    border-color: blue;
+  }
+  80% {
+    border-color: red;
+  }
+  100% {
+    border-color: yellow;
+  }
+}
+
+.duck-icon {
+  animation-name: bounce;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes bounce {
+  0% {
+    translate: 0px 0px;
+  }
+  50% {
+    translate: 0px -40px;
+  }
+  100% {
+    translate: 0px 0px;
+  }
+}
+
+.spinner {
+  width: 120px;
+  height: 120px;
+  /* background-color: white; */
+  border: 6px solid white;
+  border-top: 6px solid crimson;
+  border-radius: 50%;
+  animation-name: loading;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes loading {
+  0% {
+    rotate: 0deg;
+  }
+  100% {
+    rotate: 360deg;
+  }
+}
+
+#heart {
+  width: 200px;
+  height: 200px;
+  animation: heartbeat 2s infinite;
+}
+
+@keyframes heartbeat {
+  0% {
+    scale: 1;
+  }
+  50% {
+    scale: 0.8;
+  }
+  100% {
+    scale: 1;
+  }
+}
+
+#side-drawer {
+  width: 200px;
+  height: 200vh;
+  position: fixed;
+  top: 0;
+  left: -200px;
+  background-color: aqua;
+  transition: translate 0.4s linear;
+}
