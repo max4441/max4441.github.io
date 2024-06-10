@@ -12,7 +12,6 @@ calm.addEventListener("mouseover", function () {
 calm.addEventListener("mouseout", function () {
   document.body.classList.remove("calmbg");
   calmAudio.pause();
-  // calmAudio.currentTime = 0; // Reset the audio to the beginning
 });
 
 chaotic.addEventListener("mouseover", function () {
@@ -23,5 +22,4 @@ chaotic.addEventListener("mouseover", function () {
 chaotic.addEventListener("mouseout", function () {
   document.body.classList.remove("chaoticbg");
   chaoticAudio.pause();
-  // chaoticAudio.currentTime = 0; // Reset the audio to the beginning
 });
