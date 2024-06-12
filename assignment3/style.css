@@ -1,8 +1,15 @@
+/* Pinyon script is used as the main font for the 'calm' word. I chose to go with a cursive, elegent 
+font that resembles cursive writing from the victorian era. The font also compliments the song that goes 
+when the user hovers 'calm'. */
+
 .pinyon-script-regular {
   font-family: "Pinyon Script", cursive;
   font-weight: 400;
   font-style: normal;
 }
+
+/* Luckiest Guy font is used as the main font for the 'chaotic' word. I chose to go with a bold, funky
+font that matches the chaotic vibe. */
 
 .luckiest-guy-regular {
   font-family: "Luckiest Guy", cursive;
@@ -18,6 +25,9 @@ body {
   width: 100%;
   overflow: hidden;
 }
+
+/* This is the background that is displayed when the user is mouse hover over the 'calm' word. 
+It consists of a smooth linear gradient colors that slowly moves back and forth, imitating a smooth color animation. */
 
 body.calmbg {
   height: 100vh;
@@ -37,6 +47,9 @@ body.calmbg {
     background-position: 0 50%;
   }
 }
+
+/* This is the background that is displayed when the user is mouse hover over the 'chaotic' word. 
+It consists of a flashy,blinking color animation that matches the techno track that accompanies it */
 
 body.chaoticbg {
   height: 100vh;
@@ -58,17 +71,6 @@ body.chaoticbg {
   25% {
     background-color: rgb(43, 0, 255);
   }
-}
-
-.white {
-  position: fixed;
-  width: 100%;
-  height: 100%;
-  top: 0px;
-  left: 0px;
-  background-color: white;
-  display: block;
-  z-index: 101;
 }
 
 .calm {

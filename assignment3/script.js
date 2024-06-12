@@ -4,6 +4,9 @@ const chaotic = document.querySelector(".chaotic");
 const calmAudio = document.getElementById("calmAudio");
 const chaoticAudio = document.getElementById("chaoticAudio");
 
+// The functions are made to enable the mouse-hover effect over the two words. When the mouse-hover
+// the words, the respective background animations will be triggered with the audio playing.
+
 calm.addEventListener("mouseover", function () {
   document.body.classList.add("calmbg");
   calmAudio.play();
